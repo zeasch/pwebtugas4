@@ -1,0 +1,333 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    height: 2750px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: right;
+    font-size: 80%;
+}
+
+.topnav li a {
+    display: block;
+    color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #cc051d;
+    font-size: 50px;
+    text-align: center;
+    border: 0px solid black;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.midnav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.midnav li {
+    display: inline;
+}
+
+.midnav a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.midnav li a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.midnav .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+input[type=text] {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 275px;
+    border: 1px solid black;
+    font-family: 'Spartan', sans-serif;
+    background-color: #f8f8f8;
+    color: #555555;
+}
+
+aside {
+    width: 20%;
+    color: #555555;
+    float: left;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+aside .category {
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+aside li {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    font-size: 80%;
+}
+
+aside li a {
+    display: block;
+    color: #555555;
+    text-decoration: none;
+}
+
+aside li a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+section {
+    border: 0px solid black;
+    width: 75%;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.row article {
+    border: 0px solid black;
+    width: 550px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+h3, h4 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 25px;
+    margin-top: 3px;
+}
+
+h3 {
+    color: #cc051d;
+}
+
+h4 {
+    text-decoration: line-through;
+    font-size: 75%;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+button {
+    font-family: 'Spartan', sans-serif;
+    display: inline-block;
+    margin-top: 100px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    cursor: pointer;
+}
+
+button:hover:not(.active) {
+    background-color: #555555;
+}
+
+footer {
+    height: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 70%;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+header .back-catalog {
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+    padding-left: 30px;
+    font-size: 80%;
+}
+
+header .back-catalog a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header .back-catalog a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+section .catalog {
+    border: 0px solid black;
+    width: auto;
+    height: auto;
+    float: right;
+    padding-right: 150px;
+}
+
+section .form-informasisaya {
+    border: 1px solid #555555;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: auto;
+    float: left;
+    margin-right: 148px;
+}
+
+section .form-informasisaya form {
+    display: flex;
+}
+
+section .form-informasisaya [type=text], select {
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+    text-align: left;
+    width: 250px;
+}
+
+section .form-informasisaya label {
+    width: 300px;
+    height: 50px;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+section .form-pengiriman {
+    border: 1px solid #555555;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 600px;
+    margin-right: 750px;
+}
+
+section .form-pengiriman form {
+    display: flex;
+}
+
+section .form-pengiriman select {
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+    text-align: left;
+    width: 350px;
+}
+
+section .form-pengiriman label {
+    width: 300px;
+    height: 50px;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+section .form-pembayaran {
+    border: 1px solid #555555;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 600px;
+    margin-right: 750px;
+}
+
+section .form-pembayaran form {
+    display: flex;
+}
+
+section .form-pembayaran select {
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Spartan', sans-serif;
+    text-align: left;
+    width: 250px;
+}
+
+section .form-pembayaran label {
+    width: 300px;
+    height: 50px;
+    display: inline;
+    margin-bottom: 50px;
+}
+
+section .final {
+    border: 0px solid #555555;
+    padding-top: 10px;
+    padding-left: 50px;
+    width: 600px;
+    margin-right: 750px;
+}
+
+aside .order {
+    padding-top: 10px;
+    padding-left: 50px;
+    color: black;
+    padding-right: 50px;
+    border: 1px solid black;
+    float: right;
+}
+
+aside .order p ul li {
+    list-style-type: circle ;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeuM / Pembayaran</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+</head>
+<body style="height: 1725px;">
+    <header style="border: 0px solid black;">
+        <div class="back-catalog">
+            <a href="index.html">Kembali ke Katalog Produk</a>
+        </div>
+        <h1>HeuM</h1>
+        <hr style="color: #555555;">
+    </header>
+
+    <aside style="float: right;">
+        <div class="order">
+            <h2>ORDER ANDA</h2>
+            <p style="line-height: 1.6; padding-bottom: 50px;">
+                <br>TOTAL HARGA
+                <br>Rp0
+                <br>PENGIRIMAN
+                <br>Rp0
+                <br><br><span style="font-weight: bolder;">JUMLAH PESANAN</span>
+                <br>Rp0
+            </p>
+        </div>
+    </aside>
+
+    <section>
+        <div class="form-informasisaya">
+            <h2>INFORMASI SAYA</h2>
+            <h3 style="color: black; margin-top: 30px; margin-bottom: 20px;">Alamat Pengiriman</h3>
+            <form>
+                <label for="fname">Nama Depan
+                    <input type="text" id="fname" name="firstname">
+                </label>
+                <label for="lname">Nama Belakang
+                    <input type="text" id="lname" name="lastname">
+                </label>
+            </form>
+            <form>
+                <label for="address">Alamat
+                    <input type="text" id="address" name="address">
+                </label>
+                <label for="province">Provinsi
+                    <select id="province" name="province">
+                        <option value="default">Pilih provinsi</option>
+                        <option value="banten">Banten</option>
+                        <option value="di-yogyakarta">DI Yogyakarta</option>
+                        <option value="dki-jakarta">DKI Jakarta</option>
+                        <option value="jawa-barat">Jawa Barat</option>
+                        <option value="jawa-tengah">Jawa Tengah</option>
+                        <option value="jawa-timur">Jawa Timur</option>
+                      </select>
+                </label>
+            </form>
+            <form>
+                <label for="city">Kota
+                    <select id="city" name="city">
+                        <option value="default">Pilih kota</option>
+                        <option value="batu">Batu</option>
+                        <option value="kediri">Kediri</option>
+                        <option value="malang">Malang</option>
+                        <option value="pasuruan">Pasuruan</option>
+                        <option value="sidoarjo">Sidoarjo</option>
+                        <option value="surabaya">Surabaya</option>
+                      </select>
+                </label>
+                <label for="district">Kecamatan
+                    <select id="district" name="district">
+                        <option value="default">Pilih kecamatan</option>
+                        <option value="gubeng">Gubeng</option>
+                        <option value="mulyorejo">Mulyorejo</option>
+                        <option value="rungkut">Rungkut</option>
+                        <option value="sukolilo">Sukolilo</option>
+                        <option value="wiyung">Wiyung</option>
+                        <option value="wonokromo">Wonokromo</option>
+                      </select>
+                </label>
+            </form>
+            <form>
+                <label for="postcode">Kode Pos
+                    <input type="text" id="postcode" name="postalcode">
+                </label>
+            </form>
+
+            <h3 style="color: black; margin-top: 30px; margin-bottom: 20px;">Data Pribadi</h3>
+            <form>
+                <label for="email">Alamat Email
+                    <input type="text" id="email" name="email">
+                </label>
+            </form>
+            <form>
+                <label for="mobnumber">Nomor HP
+                    <input type="text" id="mobnumber" name="mobilenumber">
+                </label>
+            </form>
+            
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="form-pengiriman">
+            <h2>PENGIRIMAN</h2>
+            <form>
+                <label for="shipping">Pilih metode pengiriman
+                    <select id="shipping" name="shipping">
+                        <option value="default">Pilih pengiriman</option>
+                        <option value="hemat">SiCepot Hemat (5 - 6 Hari)    Rp 20.000</option>
+                        <option value="standard">SiCepot Standard (3 - 4 Hari)  Rp 40.000</option>
+                        <option value="express">SiCepot Express (1 - 2 Hari)    Rp 60.000</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div class="form-pembayaran">
+            <h2>PEMBAYARAN</h2>
+            Harap upload bukti pembayaran setelah melakukan transfer ke rekening HeuM dengan
+            detail sebagai berikut:
+            <br><br>Bank : Bank ABC
+            <br>Nama pemilik rekening : PT HEUM INDONESIA
+            <br>Nomor rekening : 123-456-789
+            <br>Nominal transfer : Rp 0
+            <br><br>Pesanan tidak akan diproses jika Heum belum menerima
+            pembayaran atas pesanan anda<br>
+            <a href="#"><button style="margin-top: 25px; margin-bottom: 50px;">UPLOAD BUKTI PEMBAYARAN</button></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="final">
+            <a href="#"><button style="margin-top: 25px; margin-bottom: 50px; display: inline-block;">SELESAIKAN PEMBELIAN</button></a>
+            <h3 style="color: black; margin-top: 30px; margin-bottom: 20px; margin-left: 75px;">Total   Rp0</h3>
+        </div>
+    </section>
+
+</body>
+</html>
